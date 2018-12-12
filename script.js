@@ -83,12 +83,10 @@ function shuffle(a) {
 function redoBtn() {
   shuffle(btnColors);
   shuffle(randomTags);
-  console.log(randomTags);
 }
 
 /** Adding the words to the randomised btns */
 function randomBtn() {
-  console.log(buttons);
   for (let i = 0; i < buttons.length; i++) {
     // for (let color of btnColors) {
     buttons[i].classList.add(btnColors[i]);
@@ -142,5 +140,5 @@ function reset() {
 
 initialise();
 
-console.log(randomTag);
-console.log(movesMade);
+//console.log(randomTag);
+//console.log(movesMade);
