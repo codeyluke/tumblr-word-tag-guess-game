@@ -49,8 +49,6 @@ function getTaggedPhoto(randomTag) {
           div.classList.add(
             "m-2",
             "text-center",
-            "border",
-            "border-success",
             "col-lg-2",
             "col-md-4",
             "col-sm-6"
